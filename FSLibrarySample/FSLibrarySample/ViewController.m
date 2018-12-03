@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <FSGestureView.h>
 
 @interface ViewController ()
 
@@ -16,6 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    FSGestureView *gesture = [[FSGestureView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.height - 200)];
+    [self.view addSubview:gesture];
+    gesture.result = ^(NSString *bResult) {
+        NSLog(@"%@",bResult);
+    };
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
