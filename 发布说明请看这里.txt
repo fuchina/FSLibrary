@@ -1,0 +1,25 @@
+1.电脑上已配置好cocoapods运行环境；
+
+2.下载CocoaPods打包插件：（github地址：https://github.com/CocoaPods/cocoapods-packager）
+  安装Packager插件命令：
+	sudo gem install cocoapods-packager
+
+3.在.podspec文件目录下，执行命令：
+	pod package FSLib.podspec --library --force
+   
+  * FSLib为podspec文件中的组件名称；
+  * --library参数是指定打包成.a文件，如果不指定则打包的是.framework文件；
+  * --force是指覆盖上次的打包文件。
+
+4.打包完成后会在当前目录下生成一个FSLib-0.0.1文件夹，0.0.1为.podspec中的版本号
+  在该目录下有个ios目录，里面就是libFSLib.a静态库
+
+  查看静态库支持硬件架构命令：
+	lipo -info libFSLib.a
+
+  显示为：Architectures in the fat file: libFSGesture.a are: 
+	armv7 armv7s i386 x86_64 arm64 
+  已经支持所有的手机和电脑等硬件设备
+
+5.
+
