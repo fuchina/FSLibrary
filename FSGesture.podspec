@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.frameworks = 'UIKit'
 
-#  s.source_files = 'SDK/Classes/*.{h}','QCSBaiduMap/BaiduSDK/header/Overlay/*.{h}'
-  s.source_files = 'SDK/Classes/*.{h}'
+#  s.source_files = 'sdks/FSGesture/classes/*.{h}','QCSBaiduMap/BaiduSDK/header/Overlay/*.{h}'
+  s.source_files = 'sdks/FSGesture/classes/*.{h}'
 
-  s.ios.vendored_libraries = 'SDK/Libs/libFSGesture.a'
+  s.ios.vendored_libraries = 'sdks/FSGesture/libs/libFSGesture.a'
 
 
 end
