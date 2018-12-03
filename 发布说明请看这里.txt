@@ -1,3 +1,6 @@
+5.走完下列步骤后，发布组件时，只需要在sdks目录下建一个该组件的文件夹，包含类头文件和静态库；把 组件.podspec文件放到根目录下，在podspec文件中配置好路径（头文件和静态库）；在FSLibrarySample工程的Podfile中加入组件，测试可用。
+
+
 1.电脑上已配置好cocoapods运行环境；
 
 2.下载CocoaPods打包插件：（github地址：https://github.com/CocoaPods/cocoapods-packager）
@@ -20,6 +23,3 @@
   显示为：Architectures in the fat file: libFSGesture.a are: 
 	armv7 armv7s i386 x86_64 arm64 
   已经支持所有的手机和电脑等硬件设备
-
-5.
-

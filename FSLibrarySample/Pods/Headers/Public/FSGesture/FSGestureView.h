@@ -1,1 +1,1 @@
-../../../../../SDK/Classes/FSGestureView.h
+../../../../../sdks/FSGesture/classes/FSGestureView.h

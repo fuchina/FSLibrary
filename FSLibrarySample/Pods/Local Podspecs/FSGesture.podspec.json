@@ -19,8 +19,8 @@
     "ios": "8.0"
   },
   "frameworks": "UIKit",
-  "source_files": "SDK/Classes/*.{h}",
+  "source_files": "sdks/FSGesture/classes/*.{h}",
   "ios": {
-    "vendored_libraries": "SDK/Libs/libFSGesture.a"
+    "vendored_libraries": "sdks/FSGesture/libs/libFSGesture.a"
   }
 }

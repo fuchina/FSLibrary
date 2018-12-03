@@ -15,14 +15,14 @@
 		0663C5C5936C7AFEF28F4AD41DC379C2 /* Pods-FSLibrarySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSLibrarySample.release.xcconfig"; sourceTree = "<group>"; };
 		1CC824A70F6868C27DC96C5888DAE561 /* Pods-FSLibrarySample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSLibrarySample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		403F0BB305BAE58B0B3D29A495B1269B /* Pods-FSLibrarySample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSLibrarySample-acknowledgements.plist"; sourceTree = "<group>"; };
-		45AEE38D2DEB73F1AA94528FA281F87A /* FSGestureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSGestureView.h; sourceTree = "<group>"; };
-		51D697C92F40CCE3E65B43D6F10B7598 /* FSCircleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSCircleLayer.h; sourceTree = "<group>"; };
+		4C25CC360F711186E03B6CCB9F73B0A3 /* FSCircleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSCircleLayer.h; sourceTree = "<group>"; };
+		5300EA1CC219D11221E5B1F401B5CAE7 /* FSGestureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSGestureView.h; sourceTree = "<group>"; };
 		64CB4C3F7EF4793FCFE2645E2EC527AF /* Pods-FSLibrarySample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSLibrarySample-frameworks.sh"; sourceTree = "<group>"; };
 		70A3BE390BDCF76B02BB3F7A51DDEA51 /* Pods-FSLibrarySample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSLibrarySample-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A362061B2D94CB08FF1B65EFF4F9140C /* libPods-FSLibrarySample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FSLibrarySample.a"; path = "libPods-FSLibrarySample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5339978E45059AA88AA4E1C26D6F3E7 /* Pods-FSLibrarySample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSLibrarySample-resources.sh"; sourceTree = "<group>"; };
-		B5D1E841952B8A7D88597FCF27FEE6FE /* libFSGesture.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFSGesture.a; path = SDK/Libs/libFSGesture.a; sourceTree = "<group>"; };
+		B7B661218C95DD882BD02D6D68F53503 /* libFSGesture.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFSGesture.a; path = sdks/FSGesture/libs/libFSGesture.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,31 +51,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2C7B644DF7C0B7998469ED7915C472BF /* SDK */ = {
+		6817E3C7AB2D9AE9AD711C2C81745338 /* sdks */ = {
 			isa = PBXGroup;
 			children = (
-				90ADFA8EE633A23D5E007E0C3F8ED1BE /* Classes */,
+				ED45D2446DCE8B38291EC136F0744D76 /* FSGesture */,
 			);
-			name = SDK;
-			path = SDK;
-			sourceTree = "<group>";
-		};
-		42850C6BBA68E99A9375D373908F583E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B5D1E841952B8A7D88597FCF27FEE6FE /* libFSGesture.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4AD611B566D3EE97C43992BB1A470B19 /* FSGesture */ = {
-			isa = PBXGroup;
-			children = (
-				42850C6BBA68E99A9375D373908F583E /* Frameworks */,
-				2C7B644DF7C0B7998469ED7915C472BF /* SDK */,
-			);
-			name = FSGesture;
-			path = ../..;
+			name = sdks;
+			path = sdks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -89,14 +71,22 @@
 			);
 			sourceTree = "<group>";
 		};
-		90ADFA8EE633A23D5E007E0C3F8ED1BE /* Classes */ = {
+		8DE4F5D2A018A1674E2B701DC739CB07 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				51D697C92F40CCE3E65B43D6F10B7598 /* FSCircleLayer.h */,
-				45AEE38D2DEB73F1AA94528FA281F87A /* FSGestureView.h */,
+				4C25CC360F711186E03B6CCB9F73B0A3 /* FSCircleLayer.h */,
+				5300EA1CC219D11221E5B1F401B5CAE7 /* FSGestureView.h */,
 			);
-			name = Classes;
-			path = Classes;
+			name = classes;
+			path = classes;
+			sourceTree = "<group>";
+		};
+		B223C66A2CA6F5304595540409AB20F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7B661218C95DD882BD02D6D68F53503 /* libFSGesture.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B6FED01D3AFF0F80FA5336246D6A0CC2 /* Products */ = {
@@ -105,6 +95,25 @@
 				A362061B2D94CB08FF1B65EFF4F9140C /* libPods-FSLibrarySample.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B753ECDAE50AD0B54891E6FE184F6148 /* FSGesture */ = {
+			isa = PBXGroup;
+			children = (
+				B223C66A2CA6F5304595540409AB20F6 /* Frameworks */,
+				6817E3C7AB2D9AE9AD711C2C81745338 /* sdks */,
+			);
+			name = FSGesture;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ED45D2446DCE8B38291EC136F0744D76 /* FSGesture */ = {
+			isa = PBXGroup;
+			children = (
+				8DE4F5D2A018A1674E2B701DC739CB07 /* classes */,
+			);
+			name = FSGesture;
+			path = FSGesture;
 			sourceTree = "<group>";
 		};
 		F7008D3148C2D2A6C0A86BFA5DEB55CB /* Pods-FSLibrarySample */ = {
@@ -125,7 +134,7 @@
 		FFAA4C95E0F6F8D2C955C2BF443DB295 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4AD611B566D3EE97C43992BB1A470B19 /* FSGesture */,
+				B753ECDAE50AD0B54891E6FE184F6148 /* FSGesture */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
