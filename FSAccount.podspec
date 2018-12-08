@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FSAccount'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'FSAccount is a tool for show logs when app run'
   s.description      = <<-DESC
 		This is a very small software library, offering a few methods to help with programming.
@@ -20,12 +20,8 @@ Pod::Spec.new do |s|
   
   s.dependency   'FSUIKit'
   s.dependency   'FSToast'
-  s.dependency   'FSKit'  
-  s.dependency   'FSUIKit'  
   s.dependency   'FSTuple'  
-  s.dependency   'FSTrack'  
   s.dependency   'FSDBMaster'  
-  s.dependency   'MJRefresh','3.1.15.7' 
   s.dependency   'FSShare'
   s.dependency   'FSViewToImage'
   s.dependency   'YYKit','1.0.9'
