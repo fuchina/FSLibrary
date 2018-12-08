@@ -1,3 +1,16 @@
+静态库生成
+1）/Users/fudonfuchina/Documents/Simple_components目录下建立测试工程，保证代码能正确运行无bug；
+2）将代码放到/Users/fudonfuchina/Documents/github/FSLocalTempLibrary目录下，podspec文件的s.source如下：
+	s.source = { :git => "/Users/fudonfuchina/Documents/github/FSLocalTempLibrary/FSAccount", :tag => s.version.to_s}
+  提交到git缓存区
+   
+  切记：不要提交到github！不要提交到github！不要提交到github！
+
+3)静态库打包；
+4）在本工程（FSLibrary）下配置好，然后提交、发布即可。
+
+
+
 5.走完下列步骤后，发布组件时，只需要在sdks目录下建一个该组件的文件夹，包含类头文件和静态库；把 组件.podspec文件放到根目录下，在podspec文件中配置好路径（头文件和静态库）；在FSLibrarySample工程的Podfile中加入组件，测试可用。
 
 
