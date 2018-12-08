@@ -3,6 +3,7 @@ platform:ios,'8.0'
 target 'FSLibrarySample' do
 
   pod 'FSGesture', :path => '../'
+  pod 'FSAccount', :path => '../'
 
 end
 
