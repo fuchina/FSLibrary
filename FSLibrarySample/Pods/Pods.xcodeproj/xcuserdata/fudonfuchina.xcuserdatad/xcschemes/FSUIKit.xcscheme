@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C191E5983AC67817988C0D1A15FBCD6F"
+               BlueprintIdentifier = "4B786AC8E8556DE61A3B4DC1572E0607"
                BlueprintName = "FSUIKit"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libFSUIKit.a">

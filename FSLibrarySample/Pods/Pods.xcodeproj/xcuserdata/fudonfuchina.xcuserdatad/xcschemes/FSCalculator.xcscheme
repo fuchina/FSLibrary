@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "323A150E721A438E9F554D5F8E986B4E"
+               BlueprintIdentifier = "DA60161744D50E7E9144F4F357A23BCA"
                BlueprintName = "FSCalculator"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libFSCalculator.a">
