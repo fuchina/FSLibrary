@@ -15,14 +15,8 @@
     "git": "https://github.com/fuchina/FSLibrary.git",
     "tag": "1.0.0"
   },
-  "public_header_files": [
-    "sdks/FSAccount/classes/*.{h}",
-    "sdks/FSAccount/classes/yilai/*.{h}"
-  ],
-  "source_files": [
-    "sdks/FSAccount/classes/*.{h}",
-    "sdks/FSAccount/classes/yilai/*.{h}"
-  ],
+  "public_header_files": "sdks/FSAccount/classes/*.{h}",
+  "source_files": "sdks/FSAccount/classes/*.{h}",
   "ios": {
     "vendored_libraries": "sdks/FSAccount/libs/libFSAccount.a"
   },
@@ -41,6 +35,9 @@
     "z"
   ],
   "dependencies": {
+    "FSBaseController": [
+
+    ],
     "YYKit": [
       "1.0.9"
     ],
