@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSAccountConfiger.h
+../../../../../sdks/FSAccount/classes/FSAccountConfiger.h

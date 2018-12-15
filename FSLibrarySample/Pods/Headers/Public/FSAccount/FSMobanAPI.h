@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSMobanAPI.h
+../../../../../sdks/FSAccount/classes/FSMobanAPI.h

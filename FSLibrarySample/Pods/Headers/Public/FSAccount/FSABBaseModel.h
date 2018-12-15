@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSABBaseModel.h
+../../../../../sdks/FSAccount/classes/FSABBaseModel.h

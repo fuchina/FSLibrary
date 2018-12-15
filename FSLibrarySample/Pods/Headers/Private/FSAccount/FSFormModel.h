@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSFormModel.h
+../../../../../sdks/FSAccount/classes/FSFormModel.h

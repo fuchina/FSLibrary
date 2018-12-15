@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSBaseCompanyController.h
+../../../../../sdks/FSAccount/classes/FSBaseCompanyController.h

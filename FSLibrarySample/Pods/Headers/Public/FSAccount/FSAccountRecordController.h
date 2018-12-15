@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSAccountRecordController.h
+../../../../../sdks/FSAccount/classes/yilai/FSAccountRecordController.h

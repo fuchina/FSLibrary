@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSAppModel.h
+../../../../../sdks/FSAccount/classes/yilai/FSAppModel.h

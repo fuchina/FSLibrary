@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSBaseAPI.h
+../../../../../sdks/FSAccount/classes/yilai/FSBaseAPI.h

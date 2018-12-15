@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSABListCell.h
+../../../../../sdks/FSAccount/classes/FSABListCell.h

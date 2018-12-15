@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FSAccount'
-  s.version          = '0.0.6'
+  s.version          = '1.0.0'
   s.summary          = 'FSAccount is a tool for show logs when app run'
   s.description      = <<-DESC
 		This is a very small software library, offering a few methods to help with programming.
@@ -12,18 +12,17 @@ Pod::Spec.new do |s|
   
   s.source           = {:git => 'https://github.com/fuchina/FSLibrary.git', :tag => s.version.to_s}
 
-  s.source_files = 'sdks/FSAccount/classes/*.{h}','sdks/FSAccount/classes/imports/*.{h}'
+  s.public_header_files = 'sdks/FSAccount/classes/*.{h}','sdks/FSAccount/classes/yilai/*.{h}'
+  s.source_files = 'sdks/FSAccount/classes/*.{h}','sdks/FSAccount/classes/yilai/*.{h}'
   s.ios.vendored_libraries = 'sdks/FSAccount/libs/libFSAccount.a'
-
-  s.ios.deployment_target = '8.0'
-  s.frameworks = 'UIKit'
+  s.ios.deployment_target = '8.2'
   
-  s.dependency   'FSUIKit'
-  s.dependency   'FSToast'
-  s.dependency   'FSTuple'  
-  s.dependency   'FSDBMaster'  
-  s.dependency   'FSShare'
-  s.dependency   'FSViewToImage'
+  s.frameworks = 'UserNotifications','MessageUI','AudioToolbox','AVFoundation'
+#  , 'SystemConfiguration', 'Security', 'CoreGraphics' 
+
+  s.libraries  = 'c++', 'sqlite3', 'z'
+  
   s.dependency   'YYKit','1.0.9'
+  s.dependency   'WechatOpenSDK','1.8.3'
 
 end

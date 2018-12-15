@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSKitDuty.h
+../../../../../sdks/FSAccount/classes/yilai/FSKitDuty.h

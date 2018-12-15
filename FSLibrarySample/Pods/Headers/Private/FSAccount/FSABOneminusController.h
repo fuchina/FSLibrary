@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSABOneminusController.h
+../../../../../sdks/FSAccount/classes/FSABOneminusController.h

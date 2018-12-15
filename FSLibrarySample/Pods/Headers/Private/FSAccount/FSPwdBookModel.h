@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSPwdBookModel.h
+../../../../../sdks/FSAccount/classes/FSPwdBookModel.h

@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSABSearchController.h
+../../../../../sdks/FSAccount/classes/FSABSearchController.h

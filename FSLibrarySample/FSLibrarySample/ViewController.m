@@ -42,7 +42,7 @@
     FSBestAccountController *i = [[FSBestAccountController alloc] init];
     i.table = @"ab_yi";
     i.title = @"2018";
-    
+
     UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:i];
     [self presentViewController:navi animated:YES completion:nil];
 }

@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSDBJeView.h
+../../../../../sdks/FSAccount/classes/yilai/FSDBJeView.h

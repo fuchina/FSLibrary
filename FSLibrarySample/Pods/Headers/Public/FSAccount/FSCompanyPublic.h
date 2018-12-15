@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSCompanyPublic.h
+../../../../../sdks/FSAccount/classes/FSCompanyPublic.h

@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSBestAccountAPI.h
+../../../../../sdks/FSAccount/classes/FSBestAccountAPI.h

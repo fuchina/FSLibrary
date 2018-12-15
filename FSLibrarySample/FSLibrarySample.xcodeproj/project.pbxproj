@@ -13,7 +13,8 @@
 		2D61EC2E21B50F2C0036C63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D61EC2D21B50F2C0036C63B /* Assets.xcassets */; };
 		2D61EC3121B50F2C0036C63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D61EC2F21B50F2C0036C63B /* LaunchScreen.storyboard */; };
 		2D61EC3421B50F2C0036C63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D61EC3321B50F2C0036C63B /* main.m */; };
-		747B05DEBAABFA7EAB0E3371 /* libPods-FSLibrarySample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C19AD082E0E57B90DA9050BD /* libPods-FSLibrarySample.a */; };
+		714E6FEC21BCEBCF006756D1 /* libFSAccount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 714E6FEB21BCEBCF006756D1 /* libFSAccount.a */; };
+		FDC4361CB0FF667871A582F9 /* libPods-FSLibrarySample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C19AD082E0E57B90DA9050BD /* libPods-FSLibrarySample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2D61EC3021B50F2C0036C63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D61EC3221B50F2C0036C63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D61EC3321B50F2C0036C63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		714E6FEB21BCEBCF006756D1 /* libFSAccount.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFSAccount.a; path = ../sdks/FSAccount/libs/libFSAccount.a; sourceTree = "<group>"; };
 		7C78B2848C9C28EBE095EF2F /* Pods-FSLibrarySample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSLibrarySample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSLibrarySample/Pods-FSLibrarySample.debug.xcconfig"; sourceTree = "<group>"; };
 		C19AD082E0E57B90DA9050BD /* libPods-FSLibrarySample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSLibrarySample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E307E82057DD4CADAB33C113 /* Pods-FSLibrarySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSLibrarySample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSLibrarySample/Pods-FSLibrarySample.release.xcconfig"; sourceTree = "<group>"; };
@@ -37,7 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747B05DEBAABFA7EAB0E3371 /* libPods-FSLibrarySample.a in Frameworks */,
+				714E6FEC21BCEBCF006756D1 /* libFSAccount.a in Frameworks */,
+				FDC4361CB0FF667871A582F9 /* libPods-FSLibrarySample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +50,7 @@
 		1263F5A6FDF3BBE0BD4513FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				714E6FEB21BCEBCF006756D1 /* libFSAccount.a */,
 				C19AD082E0E57B90DA9050BD /* libPods-FSLibrarySample.a */,
 			);
 			name = Frameworks;
@@ -106,7 +110,6 @@
 				2D61EC1D21B50F2B0036C63B /* Sources */,
 				2D61EC1E21B50F2B0036C63B /* Frameworks */,
 				2D61EC1F21B50F2B0036C63B /* Resources */,
-				6342C92FAE75A1E188BAF8D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,24 +166,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6342C92FAE75A1E188BAF8D6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FSLibrarySample/Pods-FSLibrarySample-resources.sh",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FSLibrarySample/Pods-FSLibrarySample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F3870A076D52686D3DA444B6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,6 +347,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT)";
 			};
 			name = Debug;
 		};
@@ -381,6 +367,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT)";
 			};
 			name = Release;
 		};

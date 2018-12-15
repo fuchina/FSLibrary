@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSCryptorSupport.h
+../../../../../sdks/FSAccount/classes/yilai/FSCryptorSupport.h

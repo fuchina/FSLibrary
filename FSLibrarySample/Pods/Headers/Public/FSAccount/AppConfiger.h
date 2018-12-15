@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/AppConfiger.h
+../../../../../sdks/FSAccount/classes/yilai/AppConfiger.h

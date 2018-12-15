@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSAnnalCell.h
+../../../../../sdks/FSAccount/classes/FSAnnalCell.h

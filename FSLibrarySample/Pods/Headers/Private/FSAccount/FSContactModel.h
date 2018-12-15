@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSContactModel.h
+../../../../../sdks/FSAccount/classes/FSContactModel.h

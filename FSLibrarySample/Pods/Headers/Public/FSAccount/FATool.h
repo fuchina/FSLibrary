@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FATool.h
+../../../../../sdks/FSAccount/classes/FATool.h

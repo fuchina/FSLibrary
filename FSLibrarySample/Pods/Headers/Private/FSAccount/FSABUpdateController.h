@@ -1,1 +1,1 @@
-../../../../../sdks/FSAccount/classes/imports/FSABUpdateController.h
+../../../../../sdks/FSAccount/classes/FSABUpdateController.h
