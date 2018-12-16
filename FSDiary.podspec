@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FSDiary'
-  s.version          = '1.0.2'
+  s.version          = '1.0.2.1'
   s.summary          = 'FSDiary is a tool for show logs when app run'
   s.description      = <<-DESC
 		This is a very small software library, offering a few methods to help with programming.
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'sdks/FSDiary/classes/*.{h}'
   s.source_files = 'sdks/FSDiary/classes/*.{h}'
-  s.ios.vendored_libraries = 'sdks/FSDiary/libs/libFSAccount.a'
+  s.ios.vendored_libraries = 'sdks/FSDiary/libs/libFSDiary.a'
   s.ios.deployment_target = '8.2'
   
   s.frameworks = 'UserNotifications','MessageUI','AudioToolbox','AVFoundation'
