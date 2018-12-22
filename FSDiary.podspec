@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.libraries  = 'c++', 'sqlite3', 'z'
   
   s.dependency 'FSBaseController'
+  s.dependency 'FSJZKit'
   
   s.dependency   'YYKit','1.0.9'
   s.dependency   'WechatOpenSDK','1.8.3'

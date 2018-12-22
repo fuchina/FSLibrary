@@ -1,5 +1,5 @@
 PODS:
-  - FSAccount (1.0.1):
+  - FSAccount (1.0.2):
     - FSBaseController
     - WechatOpenSDK (= 1.8.3)
     - YYKit (= 1.0.9)
@@ -8,18 +8,39 @@ PODS:
     - FSTrack
     - FSUIKit
   - FSCalculator (0.0.1)
-  - FSDiary (1.0.0):
+  - FSCryptor (0.0.1):
+    - FSKit
+  - FSDBMaster (0.0.1)
+  - FSDiary (1.0.2.1):
     - FSBaseController
+    - FSJZKit
     - WechatOpenSDK (= 1.8.3)
     - YYKit (= 1.0.9)
   - FSGesture (0.0.1)
+  - FSJZKit (0.0.6):
+    - FSBaseController
+    - FSCryptor
+    - FSDBMaster
+    - FSKit
+    - FSShare
+    - FSTrack
+    - FSTuple
+    - FSViewToImage
   - FSKit (1.3.2.2)
+  - FSShare (0.0.2):
+    - FSKit
+    - FSToast
+    - FSUIKit
+    - WechatOpenSDK (= 1.8.3)
+  - FSToast (0.0.1)
   - FSTrack (0.0.1):
     - UMengAnalytics
+  - FSTuple (0.0.1)
   - FSUIKit (0.0.6.3):
     - FSCalculator
     - FSWindow
     - MJRefresh (= 3.1.15.7)
+  - FSViewToImage (0.0.5)
   - FSWindow (0.0.1)
   - MJRefresh (3.1.15.7)
   - UMengAnalytics (4.2.4)
@@ -37,9 +58,16 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FSBaseController
     - FSCalculator
+    - FSCryptor
+    - FSDBMaster
+    - FSJZKit
     - FSKit
+    - FSShare
+    - FSToast
     - FSTrack
+    - FSTuple
     - FSUIKit
+    - FSViewToImage
     - FSWindow
     - MJRefresh
     - UMengAnalytics
@@ -55,14 +83,21 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSAccount: d0b973a41334d8337c0380bf5d6884585ccc0a8f
+  FSAccount: 0d60b227fcc8abff05eff487ad15b6e4ff62faa0
   FSBaseController: 9cc0d4ad212f13090777cf500cec8f9eab5dadf6
   FSCalculator: 3ab79307b008ebf07b4fa7fe827f418d7c65fd14
-  FSDiary: c5435fd578bbdfd8954717b68be1759d063e46f8
+  FSCryptor: e31c168b6a541ac395a5cac6ad829cc8e1d47085
+  FSDBMaster: 11fe5459459c30a00354577b946977b1b5dee162
+  FSDiary: a18412337c03389e892cabc502950754bb89accc
   FSGesture: ea5a31da2ade292c18d564906d28732af0c7e383
+  FSJZKit: b0188b6aa0efb5725331704c319b9bd9647f9963
   FSKit: 1578169720d621fb12b806a8d0faf8ba95afb0e2
+  FSShare: 67e546dc7de15cd46a71b3a497cd70d09cb1cb05
+  FSToast: c168e006b160e4305f6bf828da66cdffcc20dbe7
   FSTrack: f71ebfd16b15dad94cd816333fd1cb3ba2cd775e
+  FSTuple: 1a139e02e1cb575d527cc69e035b24eb2c71333e
   FSUIKit: d3b315c97b1ef00dc9de5209a6b8e599aef2b736
+  FSViewToImage: 97823552fda41b19d945897038b335b360f79ad8
   FSWindow: 54dce45874a001ba7761303c89f478a7b9197ad2
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
