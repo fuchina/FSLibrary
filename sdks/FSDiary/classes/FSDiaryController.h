@@ -10,7 +10,8 @@
 
 @interface FSDiaryController : FSBaseController
 
-@property (nonatomic,copy) NSString     *zone;
-@property (nonatomic,copy) NSString     *name;
+- (instancetype)initWithZone:(NSString * _Nonnull )zone
+                        name:(NSString * _Nonnull )name
+                    password:(NSString * _Nonnull )password;
 
 @end

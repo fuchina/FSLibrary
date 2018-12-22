@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FSDiary'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'FSDiary is a tool for show logs when app run'
   s.description      = <<-DESC
 		This is a very small software library, offering a few methods to help with programming.

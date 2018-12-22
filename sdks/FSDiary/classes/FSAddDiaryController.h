@@ -15,6 +15,7 @@
 @property (nonatomic,copy) NSString         *tableName;
 @property (nonatomic,copy) NSString         *zone;
 @property (nonatomic,copy) NSString         *name;
+@property (nonatomic,copy) NSString         *pwd;
 @property (nonatomic,copy) void (^backCall)(FSAddDiaryController *bVC,FSDiaryModel *bModel);
 @property (nonatomic,copy) void (^changeZone)(FSAddDiaryController *bVC,FSDiaryModel *model);
 

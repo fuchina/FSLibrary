@@ -11,9 +11,9 @@
 
 @interface FSDiaryAPI : FSBaseAPI
 
-+ (NSMutableArray *)list:(NSString *)zone page:(NSInteger)page;
++ (NSMutableArray *)list:(NSString *)zone page:(NSInteger)page password:(NSString *)password;
 
-+ (NSString *)everydayReadADiary;
++ (NSString *)everydayReadADiary:(NSString *)pwd;
 
 + (void)updateRereadedTime:(NSNumber *)aid;
 

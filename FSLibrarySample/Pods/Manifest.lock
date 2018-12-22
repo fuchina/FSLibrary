@@ -11,7 +11,7 @@ PODS:
   - FSCryptor (0.0.1):
     - FSKit
   - FSDBMaster (0.0.1)
-  - FSDiary (1.0.4):
+  - FSDiary (1.0.5):
     - FSJZKit
     - YYKit (= 1.0.9)
   - FSGesture (0.0.1)
@@ -86,7 +86,7 @@ SPEC CHECKSUMS:
   FSCalculator: 3ab79307b008ebf07b4fa7fe827f418d7c65fd14
   FSCryptor: e31c168b6a541ac395a5cac6ad829cc8e1d47085
   FSDBMaster: 11fe5459459c30a00354577b946977b1b5dee162
-  FSDiary: 6f82dac4eb2b57778062193bdb5a990a3ab74f13
+  FSDiary: d4a7f411cdbff0f7be0cdb3eeacc0a29f17d1b5c
   FSGesture: ea5a31da2ade292c18d564906d28732af0c7e383
   FSJZKit: b0188b6aa0efb5725331704c319b9bd9647f9963
   FSKit: 1578169720d621fb12b806a8d0faf8ba95afb0e2
