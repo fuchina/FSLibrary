@@ -1,5 +1,5 @@
 PODS:
-  - FSAccount (1.0.2):
+  - FSAccount (1.0.3):
     - FSBaseController
     - WechatOpenSDK (= 1.8.3)
     - YYKit (= 1.0.9)
@@ -11,10 +11,8 @@ PODS:
   - FSCryptor (0.0.1):
     - FSKit
   - FSDBMaster (0.0.1)
-  - FSDiary (1.0.2.1):
-    - FSBaseController
+  - FSDiary (1.0.4):
     - FSJZKit
-    - WechatOpenSDK (= 1.8.3)
     - YYKit (= 1.0.9)
   - FSGesture (0.0.1)
   - FSJZKit (0.0.6):
@@ -83,12 +81,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSAccount: 0d60b227fcc8abff05eff487ad15b6e4ff62faa0
+  FSAccount: a5de00d09d6f199f5443e30e71f1971ad986742b
   FSBaseController: 9cc0d4ad212f13090777cf500cec8f9eab5dadf6
   FSCalculator: 3ab79307b008ebf07b4fa7fe827f418d7c65fd14
   FSCryptor: e31c168b6a541ac395a5cac6ad829cc8e1d47085
   FSDBMaster: 11fe5459459c30a00354577b946977b1b5dee162
-  FSDiary: a18412337c03389e892cabc502950754bb89accc
+  FSDiary: 6f82dac4eb2b57778062193bdb5a990a3ab74f13
   FSGesture: ea5a31da2ade292c18d564906d28732af0c7e383
   FSJZKit: b0188b6aa0efb5725331704c319b9bd9647f9963
   FSKit: 1578169720d621fb12b806a8d0faf8ba95afb0e2

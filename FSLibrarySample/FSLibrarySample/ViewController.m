@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <FSGestureView.h>
 #import "FSBestAccountController.h"
-//#import "FSAddDiaryController.h"
+#import "FSAddDiaryController.h"
 
 @interface ViewController ()
 
@@ -32,15 +32,15 @@
 }
 
 - (void)showDiary{
-//    FSAddDiaryController *add = [[FSAddDiaryController alloc] init];
-//    add.tableName = @"diary";
-//    add.zone = @"1";
-//    [self.navigationController pushViewController:add animated:YES];
-//    __weak typeof(self)this = self;
-//    add.backCall = ^(FSAddDiaryController *bVC, FSDiaryModel *bModel) {
-//        [bVC.navigationController popViewControllerAnimated:YES];
-////        [this pushToDiary:zone name:name];
-//    };
+    FSAddDiaryController *add = [[FSAddDiaryController alloc] init];
+    add.tableName = @"diary";
+    add.zone = @"1";
+    [self.navigationController pushViewController:add animated:YES];
+    __weak typeof(self)this = self;
+    add.backCall = ^(FSAddDiaryController *bVC, FSDiaryModel *bModel) {
+        [bVC.navigationController popViewControllerAnimated:YES];
+//        [this pushToDiary:zone name:name];
+    };
 }
 
 - (void)showFSGestureView{
