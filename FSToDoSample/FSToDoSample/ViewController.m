@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "FSFutureAlertController.h"
+//#import "FSFutureAlertController.h"
 
 @interface ViewController ()
 
@@ -22,10 +22,13 @@
 }
 
 - (void)show{
-    FSFutureAlertController *alert = [[FSFutureAlertController alloc] init];
-    alert.password = @"abc";
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:alert];
-    [self presentViewController:navi animated:YES completion:nil];
+    
+    
+    
+//    FSFutureAlertController *alert = [[FSFutureAlertController alloc] init];
+//    alert.password = @"abc";
+//    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:alert];
+//    [self presentViewController:navi animated:YES completion:nil];
 }
 
 @end

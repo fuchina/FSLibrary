@@ -4,6 +4,8 @@ PODS:
     - FSTrack
     - FSUIKit
   - FSCalculator (0.0.1)
+  - FSContact (1.0.6.3):
+    - FSJZKit
   - FSCryptor (0.0.2):
     - FSKit
   - FSDBMaster (0.0.1)
@@ -21,8 +23,6 @@ PODS:
     - FSUIKit
     - WechatOpenSDK (= 1.8.3)
   - FSToast (0.0.1)
-  - FSToDo (1.0.6.1):
-    - FSJZKit
   - FSTrack (0.0.1):
     - UMengAnalytics
   - FSTuple (0.0.1)
@@ -37,7 +37,7 @@ PODS:
   - WechatOpenSDK (1.8.3)
 
 DEPENDENCIES:
-  - FSToDo (from `../`)
+  - FSContact (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -59,19 +59,19 @@ SPEC REPOS:
     - WechatOpenSDK
 
 EXTERNAL SOURCES:
-  FSToDo:
+  FSContact:
     :path: "../"
 
 SPEC CHECKSUMS:
   FSBaseController: 55b8b3cd79477c4bb377b945b33100181d4565cd
   FSCalculator: 3ab79307b008ebf07b4fa7fe827f418d7c65fd14
+  FSContact: 813f2af757be0b505f403cf7e899e5740df5ec77
   FSCryptor: 6d576b427b355d19d23b46d4fda560e8c30c5214
   FSDBMaster: 11fe5459459c30a00354577b946977b1b5dee162
   FSJZKit: 8ce209647583225dc542ac71cbd2a4ff9acb3dce
   FSKit: 1578169720d621fb12b806a8d0faf8ba95afb0e2
   FSShare: 67e546dc7de15cd46a71b3a497cd70d09cb1cb05
   FSToast: c168e006b160e4305f6bf828da66cdffcc20dbe7
-  FSToDo: 27a93b5983123d2feb661622609d766a0f30334d
   FSTrack: f71ebfd16b15dad94cd816333fd1cb3ba2cd775e
   FSTuple: 1a139e02e1cb575d527cc69e035b24eb2c71333e
   FSUIKit: d3b315c97b1ef00dc9de5209a6b8e599aef2b736
@@ -81,6 +81,6 @@ SPEC CHECKSUMS:
   UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
   WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
 
-PODFILE CHECKSUM: 16b61ba3b3803097541c8fbec7c60e74a9bbf5c4
+PODFILE CHECKSUM: e6d3e8f1bafacf7aa3b203db64f6c457ad2e83d8
 
 COCOAPODS: 1.6.0.beta.2
