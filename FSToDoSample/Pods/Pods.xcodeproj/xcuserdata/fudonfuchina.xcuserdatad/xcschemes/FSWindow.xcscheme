@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D6065768B7038E6CA3BA77DC5C5FB426"
+               BlueprintIdentifier = "0724DC6DD26E14AD5253E27AA0197626"
                BlueprintName = "FSWindow"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libFSWindow.a">

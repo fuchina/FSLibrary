@@ -2,7 +2,7 @@ platform:ios,'8.2'
 
 target 'FSToDoSample' do
 
-  pod 'FSContact', :path => '../'
+  pod 'FSAccount', :path => '../'
 
 end
 

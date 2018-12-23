@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FSAccount'
-  s.version          = '1.0.3'
+  s.version          = '1.0.6.4'
   s.summary          = 'FSAccount is a tool for show logs when app run'
   s.description      = <<-DESC
 		This is a very small software library, offering a few methods to help with programming.
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.2'
   
   s.frameworks = 'UserNotifications','MessageUI','AudioToolbox','AVFoundation'
-#  , 'SystemConfiguration', 'Security', 'CoreGraphics' 
 
   s.libraries  = 'c++', 'sqlite3', 'z'
   

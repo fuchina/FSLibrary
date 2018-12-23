@@ -1,0 +1,1 @@
+../../../../../sdks/FSAccount/classes/FSBestAccountDetailController.h
