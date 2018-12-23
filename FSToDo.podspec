@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FSToDo'
-  s.version          = '1.0.6.1'
+  s.version          = '1.0.6.2'
   s.summary          = 'FSDiary is a tool for show logs when app run'
   s.description      = <<-DESC
 		This is a very small software library, offering a few methods to help with programming.
@@ -18,5 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.2'
   
   s.frameworks = 'UIKit'  
+  
+  s.dependency   'FSJZKit'
 
 end

@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import <FSGestureView.h>
-#import "FSBestAccountController.h"
-#import "FSAddDiaryController.h"
+//#import <FSGestureView.h>
+//#import "FSBestAccountController.h"
+//#import "FSAddDiaryController.h"
 #import "FSFutureAlertController.h"
 
 @interface ViewController ()
@@ -40,32 +40,31 @@
 }
 
 - (void)showDiary{
-    FSAddDiaryController *add = [[FSAddDiaryController alloc] init];
-    add.tableName = @"diary";
-    add.zone = @"1";
-    [self.navigationController pushViewController:add animated:YES];
-    __weak typeof(self)this = self;
-    add.backCall = ^(FSAddDiaryController *bVC, FSDiaryModel *bModel) {
-        [bVC.navigationController popViewControllerAnimated:YES];
-//        [this pushToDiary:zone name:name];
-    };
+//    FSAddDiaryController *add = [[FSAddDiaryController alloc] init];
+//    add.tableName = @"diary";
+//    add.zone = @"1";
+//    [self.navigationController pushViewController:add animated:YES];
+//    __weak typeof(self)this = self;
+//    add.backCall = ^(FSAddDiaryController *bVC, FSDiaryModel *bModel) {
+//        [bVC.navigationController popViewControllerAnimated:YES];
+//    };
 }
 
 - (void)showFSGestureView{
-    FSGestureView *gesture = [[FSGestureView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.height - 200)];
-    [self.view addSubview:gesture];
-    gesture.result = ^(NSString *bResult) {
-        NSLog(@"%@",bResult);
-    };
+//    FSGestureView *gesture = [[FSGestureView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.height - 200)];
+//    [self.view addSubview:gesture];
+//    gesture.result = ^(NSString *bResult) {
+//        NSLog(@"%@",bResult);
+//    };
 }
 
 - (void)showFSAccount{
-    FSBestAccountController *i = [[FSBestAccountController alloc] init];
-    i.table = @"ab_yi";
-    i.title = @"2018";
-
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:i];
-    [self presentViewController:navi animated:YES completion:nil];
+//    FSBestAccountController *i = [[FSBestAccountController alloc] init];
+//    i.table = @"ab_yi";
+//    i.title = @"2018";
+//
+//    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:i];
+//    [self presentViewController:navi animated:YES completion:nil];
 }
 
 @end

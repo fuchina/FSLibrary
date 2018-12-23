@@ -2,9 +2,9 @@ platform:ios,'8.2'
 
 target 'FSLibrarySample' do
 
-  pod 'FSGesture', :path => '../'
-  pod 'FSAccount', :path => '../'
-  pod 'FSDiary', :path => '../'
+#  pod 'FSGesture', :path => '../'
+#  pod 'FSAccount', :path => '../'
+#  pod 'FSDiary', :path => '../'
 
   pod 'FSToDo', :path => '../'
 
