@@ -6,5 +6,7 @@ target 'FSLibrarySample' do
   pod 'FSAccount', :path => '../'
   pod 'FSDiary', :path => '../'
 
+  pod 'FSToDo', :path => '../'
+
 end
 

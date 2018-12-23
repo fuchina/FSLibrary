@@ -4,8 +4,6 @@
 	s.source = { :git => "/Users/fudonfuchina/Documents/github/FSLocalTempLibrary/FSAccount", :tag => s.version.to_s}
   提交到git缓存区
    
-  切记：不要提交到github！不要提交到github！不要提交到github！
-
 3)静态库打包；
 4）在本工程（FSLibrary）下配置好，然后提交、发布即可。
 

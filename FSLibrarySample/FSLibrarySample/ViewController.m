@@ -10,6 +10,7 @@
 #import <FSGestureView.h>
 #import "FSBestAccountController.h"
 #import "FSAddDiaryController.h"
+#import "FSFutureAlertController.h"
 
 @interface ViewController ()
 
@@ -28,7 +29,14 @@
 }
 
 - (void)click{
-    [self showFSAccount];
+    [self showToDo];
+}
+
+- (void)showToDo{
+    FSFutureAlertController *alert = [[FSFutureAlertController alloc] init];
+    alert.password = @"abc";
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:alert];
+    [self presentViewController:navi animated:YES completion:nil];
 }
 
 - (void)showDiary{
