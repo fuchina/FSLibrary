@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 //#import "FSFutureAlertController.h"
-#import "FSBestAccountController.h"
+//#import "FSBestAccountController.h"
 
 @interface ViewController ()
 
@@ -25,12 +25,12 @@
 }
 
 - (void)show{
-    FSBestAccountController *i = [[FSBestAccountController alloc] init];
-    i.table = @"ab_yi";
-    i.title = @"2018";
-
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:i];
-    [self presentViewController:navi animated:YES completion:nil];
+//    FSBestAccountController *i = [[FSBestAccountController alloc] init];
+//    i.table = @"ab_yi";
+//    i.title = @"2018";
+//
+//    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:i];
+//    [self presentViewController:navi animated:YES completion:nil];
 
     
     

@@ -2,7 +2,7 @@ platform:ios,'8.2'
 
 target 'FSToDoSample' do
 
-  pod 'FSAccount', :path => '../'
+  pod 'FSBirthday', :path => '../'
 
 end
 

@@ -1,0 +1,15 @@
+//
+//  FSAllBirthdayController.h
+//  myhome
+//
+//  Created by FudonFuchina on 2016/12/29.
+//  Copyright © 2016年 fuhope. All rights reserved.
+//
+
+#import "FSBaseController.h"
+
+@interface FSAllBirthdayController : FSBaseController
+
+@property (nonatomic,copy) NSString *password;
+
+@end
